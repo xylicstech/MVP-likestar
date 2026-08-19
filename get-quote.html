@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Request a Quote | LikeStar</title>
+  <meta
+    name="description"
+    content="Request a quote from LikeStar for printing, customization, design, branding and related services."
+  >
+
+  <link rel="stylesheet" href="css/get-quote.css">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <div class="container navbar">
+
+      <a href="index.html" class="logo" aria-label="LikeStar Home">
+        <img
+          src="images/like star logo.png"
+          alt="LikeStar"
+        >
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+
+        <a href="index.html" class="nav-link">
+          Home
+        </a>
+
+        <a href="index.html#services" class="nav-link">
+          Services
+        </a>
+
+        <a href="portfolio.html" class="nav-link">
+          Our Work
+        </a>
+
+        <a href="index.html#about" class="nav-link">
+          About
+        </a>
+
+        <a
+          href="get-quote.html"
+          class="nav-button active"
+        >
+          Request a Quote
+        </a>
+
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- =====================================================
+       PAGE HERO
+  ====================================================== -->
+
+  <main>
+
+    <section class="quote-hero">
+
+      <div class="container">
+
+        <div class="hero-content">
+
+          <span class="hero-badge">
+            <span></span>
+            Start a Project
+          </span>
+
+          <h1>
+            Let's talk about
+            <span>what you need.</span>
+          </h1>
+
+          <p>
+            Tell us what you need and we'll get back to you
+            with the right solution and a quote for your project.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         QUOTE SECTION
+    ================================================== -->
+
+    <section class="quote-section">
+
+      <div class="container">
+
+        <div class="quote-layout">
+
+          <!-- =============================================
+               FORM
+          ============================================== -->
+
+          <div class="quote-card">
+
+            <form
+              id="quoteForm"
+              class="quote-form"
+              novalidate
+            >
+
+              <!-- =========================================
+                   SECTION 1
+              ========================================== -->
+
+              <div class="form-section">
+
+                <div class="section-heading">
+
+                  <div class="section-number">
+                    01
+                  </div>
+
+                  <div>
+                    <span class="section-label">
+                      Your Information
+                    </span>
+
+                    <h2>
+                      Tell us about yourself
+                    </h2>
+
+                    <p>
+                      We'll use these details to contact you
+                      about your request.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+                  <!-- Full name -->
+
+                  <div class="form-group full-width">
+
+                    <label for="fullName">
+                      Full Name <span>*</span>
+                    </label>
+
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="Enter your full name"
+                      autocomplete="name"
+                      required
+                    >
+
+                    <small class="field-error"></small>
+
+                  </div>
+
+
+                  <!-- Business -->
+
+                  <div class="form-group">
+
+                    <label for="businessName">
+                      Business / Organization Name
+                    </label>
+
+                    <input
+                      type="text"
+                      id="businessName"
+                      name="businessName"
+                      placeholder="Business or organization"
+                      autocomplete="organization"
+                    >
+
+                  </div>
+
+
+                  <!-- Phone -->
+
+                  <div class="form-group">
+
+                    <label for="phone">
+                      Phone / WhatsApp <span>*</span>
+                    </label>
+
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="e.g. 024 000 0000"
+                      autocomplete="tel"
+                      required
+                    >
+
+                    <small class="field-error"></small>
+
+                  </div>
+
+
+                  <!-- Location -->
+
+                  <div class="form-group full-width">
+
+                    <label for="location">
+                      Location <span>*</span>
+                    </label>
+
+                    <input
+                      type="text"
+                      id="location"
+                      name="location"
+                      placeholder="Town / city / area"
+                      autocomplete="address-level2"
+                      required
+                    >
+
+                    <small class="field-error"></small>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- =========================================
+                   SECTION 2
+              ========================================== -->
+
+              <div class="form-section">
+
+                <div class="section-heading">
+
+                  <div class="section-number">
+                    02
+                  </div>
+
+                  <div>
+                    <span class="section-label">
+                      What You Need
+                    </span>
+
+                    <h2>
+                      Tell us about your project
+                    </h2>
+
+                    <p>
+                      Choose a service and we'll show only
+                      the information relevant to your request.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <!-- Service -->
+
+                <div class="form-group">
+
+                  <label for="serviceType">
+                    Service Type <span>*</span>
+                  </label>
+
+                  <select
+                    id="serviceType"
+                    name="serviceType"
+                    required
+                  >
+
+                    <option value="">
+                      — Select a service —
+                    </option>
+
+                    <optgroup label="Printing">
+
+                      <option
+                        value="T-Shirt Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        T-Shirt Printing
+                      </option>
+
+                      <option
+                        value="Custom Mug Printing"
+                        data-quantity="true"
+                        data-design="true"
+                      >
+                        Custom Mug Printing
+                      </option>
+
+                      <option
+                        value="Banner Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Banner Printing
+                      </option>
+
+                      <option
+                        value="Flyer Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Flyer Printing
+                      </option>
+
+                      <option
+                        value="Business Card Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Business Card Printing
+                      </option>
+
+                      <option
+                        value="Poster Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Poster Printing
+                      </option>
+
+                      <option
+                        value="Sticker Printing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Sticker Printing
+                      </option>
+
+                    </optgroup>
+
+
+                    <optgroup label="Customization">
+
+                      <option
+                        value="Custom Clothing"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Custom Clothing
+                      </option>
+
+                      <option
+                        value="Embroidery"
+                        data-quantity="true"
+                        data-size="true"
+                        data-design="true"
+                      >
+                        Embroidery
+                      </option>
+
+                      <option
+                        value="Branded Items"
+                        data-quantity="true"
+                        data-design="true"
+                      >
+                        Branded Items
+                      </option>
+
+                      <option
+                        value="Corporate Gifts"
+                        data-quantity="true"
+                        data-design="true"
+                      >
+                        Corporate Gifts
+                      </option>
+
+                    </optgroup>
+
+
+                    <optgroup label="Design & Branding">
+
+                      <option
+                        value="Logo Design"
+                        data-design="false"
+                      >
+                        Logo Design
+                      </option>
+
+                      <option
+                        value="Graphic Design"
+                        data-design="false"
+                      >
+                        Graphic Design
+                      </option>
+
+                      <option
+                        value="Branding"
+                        data-design="false"
+                      >
+                        Branding
+                      </option>
+
+                      <option
+                        value="Social Media Design"
+                        data-design="false"
+                      >
+                        Social Media Design
+                      </option>
+
+                    </optgroup>
+
+
+                    <optgroup label="Other">
+
+                      <option value="custom">
+                        I can't find my service
+                      </option>
+
+                    </optgroup>
+
+                  </select>
+
+                  <small class="field-error"></small>
+
+                </div>
+
+
+                <!-- Custom service -->
+
+                <div
+                  class="dynamic-field"
+                  id="customServiceField"
+                  hidden
+                >
+
+                  <div class="form-group">
+
+                    <label for="customService">
+                      What service do you need? <span>*</span>
+                    </label>
+
+                    <input
+                      type="text"
+                      id="customService"
+                      name="customService"
+                      placeholder="Describe the service you need"
+                    >
+
+                    <small class="field-error"></small>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Dynamic project details -->
+
+                <div
+                  class="dynamic-fields"
+                  id="projectDetails"
+                  hidden
+                >
+
+                  <div class="form-grid">
+
+
+                    <!-- Quantity -->
+
+                    <div
+                      class="form-group dynamic-field"
+                      id="quantityField"
+                      hidden
+                    >
+
+                      <label for="quantity">
+                        Quantity <span>*</span>
+                      </label>
+
+                      <input
+                        type="number"
+                        id="quantity"
+                        name="quantity"
+                        min="1"
+                        step="1"
+                        placeholder="e.g. 50"
+                      >
+
+                      <small class="field-error"></small>
+
+                    </div>
+
+
+                    <!-- Size -->
+
+                    <div
+                      class="form-group dynamic-field"
+                      id="sizeField"
+                      hidden
+                    >
+
+                      <label for="size">
+                        Size / Specifications <span>*</span>
+                      </label>
+
+                      <input
+                        type="text"
+                        id="size"
+                        name="size"
+                        placeholder="e.g. A4, Medium, 6ft × 3ft"
+                      >
+
+                      <small class="field-error"></small>
+
+                    </div>
+
+                  </div>
+
+
+                  <!-- Design choice -->
+
+                  <div
+                    class="design-choice dynamic-field"
+                    id="designChoice"
+                    hidden
+                  >
+
+                    <label class="choice-label">
+                      Do you have your own design? <span>*</span>
+                    </label>
+
+
+                    <div class="choice-grid">
+
+                      <label class="choice-card">
+
+                        <input
+                          type="radio"
+                          name="designOption"
+                          value="I have my own design"
+                        >
+
+                        <span class="choice-content">
+
+                          <strong>
+                            I have my own design
+                          </strong>
+
+                          <small>
+                            I'll upload my artwork
+                          </small>
+
+                        </span>
+
+                      </label>
+
+
+                      <label class="choice-card">
+
+                        <input
+                          type="radio"
+                          name="designOption"
+                          value="I need LikeStar to design it"
+                        >
+
+                        <span class="choice-content">
+
+                          <strong>
+                            I need LikeStar to design it
+                          </strong>
+
+                          <small>
+                            Your team will create the design
+                          </small>
+
+                        </span>
+
+                      </label>
+
+                    </div>
+
+                  </div>
+
+
+                  <!-- Upload -->
+
+                  <div
+                    class="upload-field dynamic-field"
+                    id="designUploadField"
+                    hidden
+                  >
+
+                    <label for="designFiles">
+                      Upload Your Design <span>*</span>
+                    </label>
+
+                    <div class="upload-box">
+
+                      <input
+                        type="file"
+                        id="designFiles"
+                        name="designFiles"
+                        accept=".jpg,.jpeg,.png,.pdf"
+                        multiple
+                      >
+
+                      <div class="upload-content">
+
+                        <div class="upload-icon">
+                          ↑
+                        </div>
+
+                        <strong>
+                          Upload your design
+                        </strong>
+
+                        <span>
+                          JPG, JPEG, PNG or PDF
+                        </span>
+
+                        <small>
+                          You can select multiple files
+                        </small>
+
+                      </div>
+
+                    </div>
+
+                    <div
+                      class="file-list"
+                      id="fileList"
+                    ></div>
+
+                    <small class="field-error"></small>
+
+                  </div>
+
+
+                  <!-- Additional details -->
+
+                  <div class="form-group full-width">
+
+                    <label for="additionalDetails">
+                      Additional Details
+                      <em>(Optional)</em>
+                    </label>
+
+                    <textarea
+                      id="additionalDetails"
+                      name="additionalDetails"
+                      rows="5"
+                      placeholder="Anything else you'd like us to know about the project?"
+                    ></textarea>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- =========================================
+                   SECTION 3
+              ========================================== -->
+
+              <div class="form-section">
+
+                <div class="section-heading">
+
+                  <div class="section-number">
+                    03
+                  </div>
+
+                  <div>
+                    <span class="section-label">
+                      Delivery
+                    </span>
+
+                    <h2>
+                      How should we get it to you?
+                    </h2>
+
+                    <p>
+                      Choose whether you'd like delivery
+                      or pickup from our shop.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <div class="delivery-options">
+
+                  <label class="delivery-card">
+
+                    <input
+                      type="radio"
+                      name="deliveryMethod"
+                      value="Delivery"
+                      required
+                    >
+
+                    <span class="delivery-content">
+
+                      <span class="delivery-icon">
+                        🚚
+                      </span>
+
+                      <strong>
+                        Delivery
+                      </strong>
+
+                      <small>
+                        Have your order delivered to you.
+                      </small>
+
+                    </span>
+
+                  </label>
+
+
+                  <label class="delivery-card">
+
+                    <input
+                      type="radio"
+                      name="deliveryMethod"
+                      value="Pickup from LikeStar shop"
+                    >
+
+                    <span class="delivery-content">
+
+                      <span class="delivery-icon">
+                        📍
+                      </span>
+
+                      <strong>
+                        Pickup from LikeStar shop
+                      </strong>
+
+                      <small>
+                        Pick up your completed order from our shop.
+                      </small>
+
+                    </span>
+
+                  </label>
+
+                </div>
+
+
+                <!-- Delivery address -->
+
+                <div
+                  class="dynamic-field"
+                  id="deliveryAddressField"
+                  hidden
+                >
+
+                  <div class="form-group">
+
+                    <label for="deliveryAddress">
+                      Delivery Location / Address <span>*</span>
+                    </label>
+
+                    <input
+                      type="text"
+                      id="deliveryAddress"
+                      name="deliveryAddress"
+                      placeholder="Where should we deliver your order?"
+                    >
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- =========================================
+                   SECTION 4
+              ========================================== -->
+
+              <div class="form-section">
+
+                <div class="section-heading">
+
+                  <div class="section-number">
+                    04
+                  </div>
+
+                  <div>
+                    <span class="section-label">
+                      Timeline
+                    </span>
+
+                    <h2>
+                      When do you need it?
+                    </h2>
+
+                    <p>
+                      Select your preferred completion date.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                  <label for="timeline">
+                    Preferred Completion Date <span>*</span>
+                  </label>
+
+                  <input
+                    type="date"
+                    id="timeline"
+                    name="timeline"
+                    required
+                  >
+
+                  <small class="date-note">
+                    We'll confirm availability after reviewing
+                    your request.
+                  </small>
+
+                  <small class="field-error"></small>
+
+                </div>
+
+              </div>
+
+
+              <!-- =========================================
+                   SECTION 5
+              ========================================== -->
+
+              <div class="form-section">
+
+                <div class="section-heading">
+
+                  <div class="section-number">
+                    05
+                  </div>
+
+                  <div>
+                    <span class="section-label">
+                      Discovery
+                    </span>
+
+                    <h2>
+                      How did you hear about us?
+                    </h2>
+                  </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                  <label for="referralSource">
+                    How did you hear about LikeStar? <span>*</span>
+                  </label>
+
+                  <select
+                    id="referralSource"
+                    name="referralSource"
+                    required
+                  >
+
+                    <option value="">
+                      — Select an option —
+                    </option>
+
+                    <option value="Facebook">
+                      Facebook
+                    </option>
+
+                    <option value="Instagram">
+                      Instagram
+                    </option>
+
+                    <option value="TikTok">
+                      TikTok
+                    </option>
+
+                    <option value="WhatsApp">
+                      WhatsApp
+                    </option>
+
+                    <option value="Google Search">
+                      Google Search
+                    </option>
+
+                    <option value="Referral">
+                      Referral
+                    </option>
+
+                    <option value="Friend / Family">
+                      Friend / Family
+                    </option>
+
+                    <option value="Walk-in">
+                      Walk-in
+                    </option>
+
+                    <option value="Other">
+                      Other
+                    </option>
+
+                  </select>
+
+                  <small class="field-error"></small>
+
+                </div>
+
+              </div>
+
+
+              <!-- =========================================
+                   SECTION 6
+              ========================================== -->
+
+              <div class="form-section confirmation-section">
+
+                <label class="consent">
+
+                  <input
+                    type="checkbox"
+                    id="confirmation"
+                    name="confirmation"
+                    required
+                  >
+
+                  <span class="checkmark"></span>
+
+                  <span class="consent-text">
+                    I confirm that the information provided is
+                    accurate and I agree to be contacted
+                    regarding this project request.
+                  </span>
+
+                </label>
+
+                <small
+                  class="field-error"
+                  id="confirmationError"
+                ></small>
+
+              </div>
+
+
+              <!-- =========================================
+                   ACTIONS
+              ========================================== -->
+
+              <div class="form-actions">
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  id="submitQuote"
+                >
+                  <span>
+                    Request a Quote
+                  </span>
+
+                  <span class="btn-arrow">
+                    →
+                  </span>
+                </button>
+
+
+                <div class="action-divider">
+                  <span>or</span>
+                </div>
+
+
+                <button
+                  type="button"
+                  class="btn btn-whatsapp"
+                  id="whatsappQuote"
+                >
+
+                  <span class="whatsapp-icon">
+                    ◉
+                  </span>
+
+                  <span>
+                    Order via WhatsApp
+                  </span>
+
+                  <span class="btn-arrow">
+                    →
+                  </span>
+
+                </button>
+
+                <p class="action-note">
+                  Your WhatsApp message will be prepared
+                  using the information you entered above.
+                </p>
+
+              </div>
+
+
+              <!-- Success -->
+
+              <div
+                class="form-message success-message"
+                id="successMessage"
+                hidden
+              >
+                <strong>
+                  Request received.
+                </strong>
+
+                <span>
+                  Thank you. We'll review your request and
+                  contact you shortly.
+                </span>
+              </div>
+
+
+              <!-- Error -->
+
+              <div
+                class="form-message error-message"
+                id="formError"
+                hidden
+              >
+                Please check the required fields and try again.
+              </div>
+
+            </form>
+
+          </div>
+
+
+          <!-- =============================================
+               SIDE INFORMATION
+          ============================================== -->
+
+          <aside class="quote-sidebar">
+
+            <div class="sidebar-card sidebar-blue">
+
+              <span class="sidebar-label">
+                WHAT HAPPENS NEXT
+              </span>
+
+              <h3>
+                Simple from start to finish.
+              </h3>
+
+              <div class="steps">
+
+                <div class="step">
+
+                  <span>
+                    01
+                  </span>
+
+                  <div>
+                    <strong>
+                      Send your request
+                    </strong>
+
+                    <p>
+                      Give us the details of what you need.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <div class="step">
+
+                  <span>
+                    02
+                  </span>
+
+                  <div>
+                    <strong>
+                      We review it
+                    </strong>
+
+                    <p>
+                      Our team checks your requirements.
+                    </p>
+                  </div>
+
+                </div>
+
+
+                <div class="step">
+
+                  <span>
+                    03
+                  </span>
+
+                  <div>
+                    <strong>
+                      We contact you
+                    </strong>
+
+                    <p>
+                      We'll discuss the project and pricing.
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="sidebar-card">
+
+              <span class="sidebar-label blue-label">
+                NEED HELP?
+              </span>
+
+              <h3>
+                Not sure what to choose?
+              </h3>
+
+              <p>
+                That's completely fine. Tell us what you're
+                trying to achieve and we'll help you choose
+                the right service.
+              </p>
+
+              <a
+                href="https://wa.me/233000000000"
+                class="sidebar-whatsapp"
+                target="_blank"
+                rel="noopener"
+              >
+                Chat with LikeStar
+                <span>→</span>
+              </a>
+
+            </div>
+
+          </aside>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <a href="index.html" class="logo">
+            <img
+              src="images/like star logo.png"
+              alt="LikeStar"
+            >
+          </a>
+
+          <p>
+            Printing, customization, design and branding
+            solutions built around your needs.
+          </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Company
+          </h4>
+
+          <a href="index.html">
+            Home
+          </a>
+
+          <a href="portfolio.html">
+            Our Work
+          </a>
+
+          <a href="index.html#about">
+            About
+          </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Services
+          </h4>
+
+          <a href="index.html#services">
+            Printing
+          </a>
+
+          <a href="index.html#services">
+            Customization
+          </a>
+
+          <a href="index.html#services">
+            Design & Branding
+          </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Start a Project
+          </h4>
+
+          <a
+            href="get-quote.html"
+            class="footer-cta"
+          >
+            Request a Quote →
+          </a>
+
+          <a
+            href="https://wa.me/233000000000"
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © <span id="currentYear"></span> LikeStar.
+          All rights reserved.
+        </span>
+
+        <span>
+          Printing • Customization • Design • Branding
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="js/get-quote.js"></script>
+
+</body>
+</html>
